@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.section`
+  display: flex;
+  flex-direction: column;
   background-color: red;
 `;
 
@@ -17,6 +19,7 @@ function MainPanel() {
         Assembly
         <hr />
       </h1>
+      <div>표시</div>
 
       <section>
         <Piece>작업물 위치</Piece>

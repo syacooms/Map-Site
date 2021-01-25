@@ -1,19 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import MainPanel from './MainPanel/MainPanel';
-import SidePanel from './SidePanel/SidePanel';
 
 const Container = styled.section`
   display: flex;
   background-color: #f4f5fa;
 `;
 
-const Side = styled.div`
-  width: 200px;
-`;
+// const Side = styled.section`
+//   width: 200px;
+// `;
 
-const Main = styled.div`
-  width: 1000px;
+const Main = styled.section`
+  width: 100%;
 `;
 
 function MainPage() {
@@ -22,9 +21,9 @@ function MainPage() {
       <Main>
         <MainPanel />
       </Main>
-      <Side>
+      {/* <Side>
         <SidePanel />
-      </Side>
+      </Side> */}
     </Container>
   );
 }

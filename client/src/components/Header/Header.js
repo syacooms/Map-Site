@@ -1,5 +1,7 @@
 import React from 'react';
+import firebase from '../../firebase';
 import styled from 'styled-components';
+import { useSelector } from 'react-redux';
 
 const Container = styled.header`
   display: flex;
@@ -13,11 +15,9 @@ const Container = styled.header`
   background-color: #f4f5fa;
 `;
 
-const Logo = styled.ul`
-  display: flex;
-`;
+const Logo = styled.ul``;
 
-const Login = styled.ul`
+const User = styled.ul`
   display: flex;
 `;
 
@@ -27,15 +27,24 @@ const MenuItem = styled.li`
 `;
 
 function Header() {
+  const loginState = useSelector((state) => state.user.currentUser);
+
+  const handleLogout = () => {
+    firebase.auth().signOut();
+  };
+
   return (
     <Container>
       <Logo>
-        <MenuItem>Logo</MenuItem>
+        <MenuItem>📋 PJT-01</MenuItem>
       </Logo>
-      <Login>
-        <MenuItem>login</MenuItem>
-        <MenuItem>logout</MenuItem>
-      </Login>
+      <User>
+        {loginState && (
+          <MenuItem onClick={handleLogout} style={{ cursor: 'pointer' }}>
+            logout
+          </MenuItem>
+        )}
+      </User>
     </Container>
   );
 }
