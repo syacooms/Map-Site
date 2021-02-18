@@ -15,14 +15,15 @@ const Container = styled.header`
   background-color: #f4f5fa;
 `;
 
-const Logo = styled.ul``;
+const Logo = styled.ul`
+  list-style: none;
+`;
 
 const User = styled.ul`
-  display: flex;
+  list-style: none;
 `;
 
 const MenuItem = styled.li`
-  display: flex;
   margin-right: 1vw;
 `;
 

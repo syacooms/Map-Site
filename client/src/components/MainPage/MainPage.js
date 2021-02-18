@@ -21,9 +21,6 @@ function MainPage() {
       <Main>
         <MainPanel />
       </Main>
-      {/* <Side>
-        <SidePanel />
-      </Side> */}
     </Container>
   );
 }
