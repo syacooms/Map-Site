@@ -9,8 +9,8 @@ const Container = styled.header`
   justify-content: space-between;
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0 auto;
-  width: '100%';
-  height: '5vw';
+  width: 1024px;
+  height: 5vw;
   margin-bottom: 0.25em;
   background-color: #f4f5fa;
 `;
