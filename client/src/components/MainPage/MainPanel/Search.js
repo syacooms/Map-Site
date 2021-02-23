@@ -31,6 +31,7 @@ const Input = styled.input`
   position: relative;
   margin: 0 auto;
   border-radius: 22px;
+  padding-left: 15px;
   top: 30px;
   height: 30px;
   width: 100%;
@@ -47,7 +48,7 @@ const Button = styled.button`
   width: 5%;
   height: 35px;
   bottom: 5px;
-  left: 970px;
+  left: 980px;
   cursor: pointer;
 `;
 
