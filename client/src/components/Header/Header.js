@@ -7,7 +7,7 @@ const Container = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Abel';
   margin: 0 auto;
   width: 1024px;
   height: 5vw;

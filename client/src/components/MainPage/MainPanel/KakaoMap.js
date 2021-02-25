@@ -56,7 +56,6 @@ function KakaoMap({ searchPlace }) {
 
     // 마커 위에 인포윈도우를 표시
     infowindow.open(map, marker);
-
     // 여기까지 시작 시 작업
 
     // 검색 마커 표시영역
