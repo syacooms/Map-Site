@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const Container = styled.section`
   display: flex;
   flex-direction: column;
-  background-color: black;
 `;
 
 function KakaoMap({ searchPlace }) {
@@ -110,7 +109,10 @@ function KakaoMap({ searchPlace }) {
 
   return (
     <Container>
-      <div id="map" style={{ width: '100%', height: '100vh' }} />
+      <div
+        id="map"
+        style={{ margin: '0 auto', width: '95%', height: '450px' }}
+      />
     </Container>
   );
 }

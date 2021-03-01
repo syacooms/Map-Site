@@ -11,44 +11,43 @@ const Container = styled.section`
 `;
 
 const SearchForm = styled.form`
+  position: relative;
   height: 100px;
-  width: 1024px;
+  width: 100%;
   margin: 0 auto;
 `;
 
 const Title = styled.h2`
-  position: relative;
-  top: 5px;
-  margin: auto;
+  position: absolute;
+  left: 50%;
+  margin: 0 auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `;
 
-const Map = styled.div`
-  height: 400px;
-`;
+const Map = styled.div``;
 
 const Input = styled.input`
-  position: relative;
+  position: absolute;
   margin: 0 auto;
   border-radius: 22px;
   padding-left: 15px;
-  top: 30px;
+  top: 40px;
+  left: 10%;
   height: 30px;
-  width: 100%;
+  width: 1000px;
   border: 2px solid #222;
   text-align: left;
 `;
 
 const Button = styled.button`
-  position: relative;
+  position: absolute;
   background: transparent;
   margin: auto;
   border: 0;
   outline: 0;
   width: 5%;
-  height: 35px;
-  bottom: 5px;
-  left: 980px;
+  left: 1080px;
+  bottom: 29px;
   cursor: pointer;
 `;
 

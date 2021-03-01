@@ -8,11 +8,12 @@ const Container = styled.header`
   flex-direction: row;
   justify-content: space-between;
   font-family: 'Abel';
+  font-size: 20px;
+  color: white;
   margin: 0 auto;
-  width: 1024px;
-  height: 5vw;
-  margin-bottom: 0.25em;
-  background-color: #f4f5fa;
+  width: 100%;
+  height: 70px;
+  background-color: black;
 `;
 
 const Logo = styled.ul`
@@ -39,6 +40,7 @@ function Header() {
       <Logo>
         <MenuItem>📋 PJT-01</MenuItem>
       </Logo>
+
       <User>
         {loginState && (
           <MenuItem onClick={handleLogout} style={{ cursor: 'pointer' }}>
