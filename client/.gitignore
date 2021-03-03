@@ -7,11 +7,15 @@
 .firebase.js
 .env
 
+
+
 # testing
 /coverage
 
 # production
 /build
+.github
+.firebase
 
 # misc
 .DS_Store
