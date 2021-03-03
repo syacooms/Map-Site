@@ -11,8 +11,12 @@
 |Firebase|파이어베이스와 연동하여 유저 정보 저장(Authentication) 및 웹 호스팅 |Authentication,Hosting|
 |KaKao API| 카카오 맵, 마커 및 윈포 윈도우 활용 | kakaomap |
 
+---
 
-03.03 - md5 프로필 넣고 배포할 예정.
+## test
+
+* ID : test@naver.com
+* PWD : 123456
 
 
 
