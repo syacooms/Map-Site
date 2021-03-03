@@ -12,16 +12,18 @@ const Container = styled.section`
 
 const SearchForm = styled.form`
   position: relative;
-  height: 100px;
+  height: 200px;
   width: 100%;
   margin: 0 auto;
 `;
 
 const Title = styled.h2`
   position: absolute;
+  padding-top: 30px;
   left: 50%;
   margin: 0 auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 45px;
 `;
 
 const Map = styled.div``;
@@ -31,10 +33,10 @@ const Input = styled.input`
   margin: 0 auto;
   border-radius: 22px;
   padding-left: 15px;
-  top: 40px;
+  top: 50%;
   left: 10%;
   height: 30px;
-  width: 1000px;
+  width: 80%;
   border: 2px solid #222;
   text-align: left;
 `;
@@ -45,9 +47,8 @@ const Button = styled.button`
   margin: auto;
   border: 0;
   outline: 0;
-  width: 5%;
-  left: 1080px;
-  bottom: 29px;
+  right: 10%;
+  top: 52%;
   cursor: pointer;
 `;
 
@@ -68,8 +69,8 @@ function MainPanel() {
 
   return (
     <Container>
-      <Title>Search</Title>
       <SearchForm onSubmit={handleSubmit}>
+        <Title>Search</Title>
         <Input
           title="검색어 입력"
           id="keyword"

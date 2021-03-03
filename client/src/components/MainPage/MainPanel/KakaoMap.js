@@ -111,7 +111,7 @@ function KakaoMap({ searchPlace }) {
     <Container>
       <div
         id="map"
-        style={{ margin: '0 auto', width: '95%', height: '450px' }}
+        style={{ margin: '0 auto', width: '92%', height: '100vh' }}
       />
     </Container>
   );

@@ -1,10 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import Search from './MainPanel/Search';
+import Banner from '../Slide/Banner';
 
 const Container = styled.section`
   display: flex;
-  background-color: #f4f5fa;
+  flex-direction: column;
+`;
+
+const Slide = styled.section`
+  width: 100%;
+  height: 200px;
 `;
 
 const Main = styled.section`
@@ -14,6 +20,9 @@ const Main = styled.section`
 function MainPage() {
   return (
     <Container>
+      <Slide>
+        <Banner />
+      </Slide>
       <Main>
         <Search />
       </Main>

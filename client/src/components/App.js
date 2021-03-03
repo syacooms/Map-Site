@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
 
 const Container = styled.div`
-  background-color: #f4f5fa;
+  /* background-color: #f4f5fa; */
 `;
 
 function App() {
