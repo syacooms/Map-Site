@@ -1,6 +1,16 @@
-# Personal-Project-01 [개인 프로젝트]
-> 리액트를 활용한 간단한 카카오맵 검색 사이트.
-> 직접 만들고 배포하는 프로젝트
+# Personal-Project-01 개인 프로젝트
+> 리액트를 활용한 간단한 카카오맵 검색 사이트
+>> 직접 만들고 배포해보는 프로젝트
+
+---
+
+## 시연 영상
+
+
+![ezgif-2-fa1b760ee7f9](https://user-images.githubusercontent.com/31100061/109775263-a3a43480-7c44-11eb-84df-b6c683f14f83.gif)
+
+
+
 ---
 
 ## 사용 기술 스택
@@ -14,9 +24,10 @@
 ---
 
 ## test
-
+* Site : https://sya-pjt-01.web.app/
 * ID : test@naver.com
 * PWD : 123456
+
 
 
 
