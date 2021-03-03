@@ -20,7 +20,7 @@ const SearchForm = styled.form`
 const Title = styled.h2`
   position: absolute;
   padding-top: 30px;
-  left: 50%;
+  left: 45%;
   margin: 0 auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 45px;
